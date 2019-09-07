@@ -8,7 +8,6 @@ class Reader extends Component {
     state = {
         elNumber: this.props.startValue,
     };
-
     static defaultProps = {
         step: 1,
         startValue: 1,

@@ -1,11 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import Controls from '../Controls';
 import style from '../Reader/Reader.module.css';
-
 const Counter = ({ items, elNumber, onHandleIncrement, onHandleDecrement }) => {
-
     return (
         <div className={style.counter}>
             <span>
@@ -20,7 +17,6 @@ const Counter = ({ items, elNumber, onHandleIncrement, onHandleDecrement }) => {
         </div>
     );
 };
-
 Counter.propTypes = {
     items: PropTypes.array.isRequired,
     elNumber: PropTypes.number.isRequired,
