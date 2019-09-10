@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Publication from '../Publication/Publication';
 import Counter from '../Counter/Counter';
 import style from './Reader.module.css';
-
+import { Redirect, Route } from 'react-router';
 class Reader extends Component {
     state = {
         elNumber: this.props.startValue,
@@ -36,6 +36,12 @@ class Reader extends Component {
 
         return (
             <div className={style.reader}>
+                <Redirect to={{
+                    pathname: "/reader",
+                    search: `?item=${elNumber}`,
+                }} />
+
+
                 <Publication
                     title={items[elNumber - 1].title}
                     text={items[elNumber - 1].text}
@@ -52,3 +58,5 @@ class Reader extends Component {
 }
 
 export default Reader;
+
+
