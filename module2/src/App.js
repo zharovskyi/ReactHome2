@@ -16,13 +16,12 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <><Router history={customHistory} >
         <Switch>
-          <Router history={customHistory} >
-            <Route path="/reader" render={() => <Reader items={publications} />} />
-            <Route path="" render={() => <Reader items={publications} />} />
-          </Router>
+          <Route path="/reader" render={() => <Reader items={publications} />} />
+          <Route path="/" render={() => <Reader items={publications} />} />
         </Switch>
+      </Router>
       </>
     );
   }
