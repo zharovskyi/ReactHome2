@@ -7,11 +7,6 @@ import { createBrowserHistory } from "history";
 
 const customHistory = createBrowserHistory();
 
-
-
-
-
-
 class App extends Component {
 
   render() {

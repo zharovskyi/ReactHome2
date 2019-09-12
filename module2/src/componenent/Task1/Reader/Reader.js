@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 import Publication from '../Publication/Publication';
 import Counter from '../Counter/Counter';
 import style from './Reader.module.css';
-import { Redirect, Route } from 'react-router';
+import { Redirect } from 'react-router';
+// import queryString from 'query-string';
+
+// const getItemFromLocation = location => queryString.parse(location.search).item;
 class Reader extends Component {
     state = {
         elNumber: this.props.startValue,
@@ -30,6 +33,17 @@ class Reader extends Component {
         }));
     };
 
+    // componentDidUpdate(prevProps) {
+    //     const { elNumber } = this.state;
+    //     const { history, location } = this.props;
+    //     const prevPropItem = getItemFromLocation(prevProps.location);
+    //     if (+prevPropItem !== elNumber) {
+    //         history.push({
+    //             ...location,
+    //             search: `item=${elNumber}`,
+    //         });
+    //     }
+    // }
     render() {
         const { items } = this.props;
         const { elNumber } = this.state;
