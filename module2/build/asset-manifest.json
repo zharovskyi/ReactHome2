@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactHome2/module2/build/static/css/main.3ccd11cc.chunk.css",
-    "main.js": "/ReactHome2/module2/build/static/js/main.ac8ae97f.chunk.js",
-    "main.js.map": "/ReactHome2/module2/build/static/js/main.ac8ae97f.chunk.js.map",
+    "main.js": "/ReactHome2/module2/build/static/js/main.bc490edc.chunk.js",
+    "main.js.map": "/ReactHome2/module2/build/static/js/main.bc490edc.chunk.js.map",
     "runtime~main.js": "/ReactHome2/module2/build/static/js/runtime~main.79ee8430.js",
     "runtime~main.js.map": "/ReactHome2/module2/build/static/js/runtime~main.79ee8430.js.map",
-    "static/js/2.30668fd4.chunk.js": "/ReactHome2/module2/build/static/js/2.30668fd4.chunk.js",
-    "static/js/2.30668fd4.chunk.js.map": "/ReactHome2/module2/build/static/js/2.30668fd4.chunk.js.map",
+    "static/js/2.c2f78d16.chunk.js": "/ReactHome2/module2/build/static/js/2.c2f78d16.chunk.js",
+    "static/js/2.c2f78d16.chunk.js.map": "/ReactHome2/module2/build/static/js/2.c2f78d16.chunk.js.map",
     "index.html": "/ReactHome2/module2/build/index.html",
-    "precache-manifest.6c8d246edc1ac4534010a3637273ebeb.js": "/ReactHome2/module2/build/precache-manifest.6c8d246edc1ac4534010a3637273ebeb.js",
+    "precache-manifest.0df9d91a93cf1fdf72f39e165d85ae3f.js": "/ReactHome2/module2/build/precache-manifest.0df9d91a93cf1fdf72f39e165d85ae3f.js",
     "service-worker.js": "/ReactHome2/module2/build/service-worker.js",
     "static/css/main.3ccd11cc.chunk.css.map": "/ReactHome2/module2/build/static/css/main.3ccd11cc.chunk.css.map"
   }

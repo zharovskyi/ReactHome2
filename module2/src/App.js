@@ -15,7 +15,7 @@ class App extends Component {
         <Router history={customHistory} >
           <Switch>
             <Route path="/reader" render={() => <Reader items={publications} />} />
-            <Route path="/" render={() => <Reader items={publications} />} />
+            <Route render={() => <Reader items={publications} />} />
           </Switch>
         </Router>
       </>

@@ -8,12 +8,21 @@ const Controls = ({
     onHandleIncrement,
     onHandleDecrement,
 }) => {
+    let leftDisabled
+    let rightDisabled;
+    if (elNumber === 1) {
+        leftDisabled = 'disabled';
+    } else if (elNumber === items.length) {
+        rightDisabled = 'disabled'
+    }
+
     return (
         <div className={style.controls}>
             <button
                 className={elNumber === 1 ? style.disabled : style.button}
                 onClick={onHandleDecrement}
                 type="button"
+                disabled={leftDisabled}
             >
                 PREV
       </button>
@@ -21,6 +30,7 @@ const Controls = ({
                 className={elNumber === items.length ? style.disabled : style.button}
                 onClick={onHandleIncrement}
                 type="button"
+                disabled={rightDisabled}
             >
                 NEXT
       </button>
